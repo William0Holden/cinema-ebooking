@@ -1,0 +1,29 @@
+.admin-container {
+    max-width: 600px;
+    width: 80%;
+    margin: 50px auto;
+}
+.admin-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.admin-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.admin-submit {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin-submit:hover {
+    background-color: #218838;
+}

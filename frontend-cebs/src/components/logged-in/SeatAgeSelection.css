@@ -1,0 +1,45 @@
+.seat-age-container {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.screen {
+    background-color: #ccc;
+    height: 50px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.seat {
+    background-color: #444;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.seat.selected {
+    background-color: #6c7ae0;
+}
+
+.seat.occupied {
+    background-color: #fff;
+    cursor: not-allowed;
+}
